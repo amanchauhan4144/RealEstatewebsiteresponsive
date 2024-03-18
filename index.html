@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="mediatablet.css">
+</head>
+
+<body>
+    <!-- this part is the first container (start) -->
+    <div class="realEstateIntro">
+        <div class="navBar">
+            <div class="leftNavBar">
+                <div class="leftLogoIcon">
+                    <img src="images/path_41.png" class="mIcon" alt="icon m photo">
+                </div>
+                <div class="rightLogoIcon">
+                    Mulih
+                </div>
+            </div>
+             <!-- this part is the sidebar for mobile device view (start) -->
+            <input type="checkbox" id="openSidebarMenu">
+            <label for="openSidebarMenu" class="sidebarIconToggle">
+                <div class="spinner top"></div>
+                <div class="spinner middle"></div>
+                <div class="spinner bottom"></div>
+            </label>
+            <!--  -->
+            <div id="sidebarMenu">
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+
+            </div>
+            <!-- this part is the sidebar for mobile device view (end) -->
+
+
+            <!--  -->
+            <div class="rightNavBar">
+                <div class="rightNavList">
+                    <ul>
+                        <li>Home</li>
+                        <li>Property</li>
+                        <li>About</li>
+                        <li>Service</li>
+                        <li>Contact</li>
+                    </ul>
+
+                </div>
+                <div class="rightNavButtons">
+                    <div class="signInButton">Sign in</div>
+                    <div class="loginButton">Login</div>
+                </div>
+            </div>
+        </div>
+        <div class="realEstateMidSection">
+            <div class="realEstateMidSectionContainer">
+                <div class="realEstateTag">
+                    <h4>REAL ESTATE</h4>
+                </div>
+                <div class="realEstateMainHeading"> Let's hunt for your dream residence</div>
+                <div class="tempHomeImage"><img src="images/home1.png" alt="" width="100%"></div>
+                <div class="realEstatePara">Explore our range of beautiful properties with the addition of separate
+                    accommodation suitable for you.</div>
+                <div class="realEstateOptions">
+                    <div class="buy">Buy</div>
+                    <div class="rent">Rent</div>
+                </div>
+                <!-- experiment -->
+
+                <!-- <label class="realEstateDescriptions" for="dialogid"> -->
+                <div class="realEstateDescriptions">
+                    <div class="locations">
+                        <label for="countries">Location </label>
+                        <select name="countries" id="countries">
+                            <option value="AF">Bogor , Jawa Borat </option>
+                            <option value="AF">Delhi , India</option>
+                            <option value="AF">Kathmandu , Nepal</option>
+                        </select>
+                    </div>
+                    <!--  -->
+                    <div class="type">
+                        <label for="countries">Type  </label>
+                        <select name="countries" id="countries">
+                            <option value="AF">Home</option>
+                            <option value="AF">Office</option>
+                            <option value="AF">Work</option>
+                        </select>
+                    </div>
+                    <!--  -->
+                    <div class="priceRange">
+                        <label for="countries">Price Range</label>
+                        <select name="countries" id="countrieslast">
+                            <option value="AF">$200-$350</option>
+                            <option value="AF">$300-$450</option>
+                            <option value="AF">$400-$550</option>
+                        </select>
+                    </div>
+                    <div class="searchButton">
+                        Search
+                    </div>
+                </div>
+                <!-- </label> -->
+                <!-- experiment -->
+            </div>
+        </div>
+    </div>
+
+    <!-- This part is about property choices (2nd page of the webpage)(start) -->
+    <div class="propertyChoices">
+        <div class="propertyHead">
+            <div class="propertyTag">DISCOVER</div>
+            <div class="propertyMainHeading">Best recommendation</div>
+            <div class="propertyHeadLower">
+                <div class="propertyInfo">Discover our exclusive selection of the finest one-of-a-kind luxury properties
+                    architectural masterpieces.</div>
+                <div class="learnMore">
+                    <div class="learnText">Learn More</div>
+                    <div class="learnLogo"><img src="images/learnlogo.png" alt="" width="80%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="propertyStore">
+            <div class="propertyCardOuter"> <!-- first card -->
+                <div class="propertyCardImage">
+                    <img src="images/propertyone.jpg" alt="" width="100%">
+                </div>
+                <div class="propertyName">
+                    Perum griya asri
+                </div>
+                <div class="propertyLocation"> Bogor, Jawa Barat</div>
+                <div class="propertyDescription">
+                    <div class="propertyPrice">$25,000</div>
+                    <div class="propertySize"><span class="areastyle">360m<sup>2</sup></span> Living Area</div>
+                </div>
+                <div class="inquiryButton">Send Inquiry</div>
+            </div>
+
+            <div class="propertyCardOuter"> <!-- second card -->
+                <div class="propertyCardImage">
+                    <img src="images/propertytwo.jpg" alt="" width="100%">
+                </div>
+                <div class="propertyName"> Perum kencana asri </div>
+                <div class="propertyLocation">Bogor, Jawa Barat</div>
+                <div class="propertyDescription">
+                    <div class="propertyPrice"> $35,000</div>
+                    <div class="propertySize"> <span class="areastyle">360m<sup>2</sup></span> Living Area</div>
+                </div>
+                <div class="inquiryButton">Send Inquiry</div>
+            </div>
+
+            <div class="propertyCardOuter"> <!-- third card -->
+                <div class="propertyCardImage">
+                    <img src="images/propertythree.jpg" alt="" width="100%">
+                </div>
+                <div class="propertyName">Perum rakjel elit</div>
+                <div class="propertyLocation">Bogor, Jawa Barat</div>
+                <div class="propertyDescription">
+                    <div class="propertyPrice">$40,000</div>
+                    <div class="propertySize"><span class="areastyle">360m<sup>2</sup></span> Living Area</div>
+                </div>
+                <div class="inquiryButton">
+                    Send Inquiry
+                </div>
+            </div>
+        </div>
+    </div>
+     <!-- This part is about property choices (2nd page of the webpage)(end) -->
+
+    <!-- This part is about propertyPerks(3rd page of the webpage) (start) -->
+    <div class="propertyPerks">
+        <div class="propertyPerksHeader">
+            <div class="propertyPerksTag"> OUR ADVANTE</div>
+            <div class="propertyPerksHeading">Giving you peace of mind</div>
+        </div>
+        <div class="propertyPerksContainer">
+            <div class="propertyPerksRowUpper">
+                <div class="propertyPerksCard">  
+                    <div class="perksIcon"><img src="images/perkone.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksName">Comfortable </div>
+                    <div class="tempPerks"><img src="images/perkone.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksDetail">Enjoy lifestyle amenities designed to provide every homeowners modern
+                        comfort, a stone's throw away from schools, churches, and hospitals.</div>
+                </div>
+                <div class="propertyPerksCard">
+                    <div class="perksIcon"><img src="images/perktwo.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksName">Extra Security </div>
+                    <div class="tempPerks"><img src="images/perktwo.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksDetail">You can connect with potential tenants without having to share your phone
+                        number. We also require all users to register to validate their legitimacy.</div>
+                </div>
+                <div class="propertyPerksCard">
+                    <div class="perksIcon"><img src="images/perkthree.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksName">Luxury </div>
+                    <div class="tempPerks"><img src="images/perkthree.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksDetail" id="perksluxury">Find out how we provide the highest standard of
+                        professional property management to give you all the <br> benefits of property.</div>
+                </div>
+            </div>
+            <div class="propertyPerksRowLower">
+                <div class="propertyPerksCard">
+                    <div class="perksIcon"><img src="images/perkfour.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksName">Best Price </div>
+                    <div class="tempPerks"><img src="images/perkfour.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksDetail">Not sure what you should be charging for your property? Let us do the
+                        numbers for you-contact us today for a free rental appraisal on your home.</div>
+                </div>
+                <div class="propertyPerksCard">
+                    <div class="perksIcon"><img src="images/perkfive.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksName">Strategic location </div>
+                    <div class="tempPerks"><img src="images/perkfive.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksDetail">located in the city center close to the shopping center. Very good for
+                        areas surrounded by international education centers, start-up office centers.</div>
+                </div>
+                <div class="propertyPerksCard">
+                    <div class="perksIcon"><img src="images/perksix.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksName">Efficient </div>
+                    <div class="tempPerks"><img src="images/perksix.png" alt="" width="100%" height="100%"></div>
+                    <div class="perksDetail">Schedule visits to multiple properties at <br> once in one day without
+                        having to call <br> them one by one. Check everything <br> and find the best properties for rent
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- This part is about propertyPerks(3rd page of the webpage) (end) -->
+
+    <!-- This part is about propertyworth (4th page of the webpage) (start) -->
+    <div class="propertyWorth">
+        <div class="propertyWorthImageContainer">
+            <div class="ratingImageContainer">
+                <div class="checkedIcon"><img src="images/checkboxxx.png" alt="" width="100%"></div>
+                <div class="ratingNumber">
+                    <h1>4.8</h1>
+                </div>
+                <div class="stars">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+                <div class="trustText">Trusted on</div>
+                <div class="reviewText">500+ Reviews</div>
+            </div>
+            <div class="propertyWorthImage"><img src="images/propertWorthimg.jpg" alt="" width="100%"></div>
+            <div class="propertyWorthParaTemp">We have built our reputation as true local area experts. We have gained
+                more knowledge about buyer interests, our neighborhood and the market than any other brand beca use we
+                live locally and work for local people.</div>
+            <div class="learnMoreButtonTemp">Learn More</div>
+            <div class="lowerRating">
+                <div class="propertySale">
+                    <div class="propertySaleNumber">250+</div>
+                    <div class="propertySaleText">Property Sale</div>
+                </div>
+                <div class="apartmentRent">
+                    <div class="apartmentRentNumber">550+</div>
+                    <div class="apartmentRentText">Apartment Rent</div>
+                </div>
+            </div>
+            <div class="tempLowerRating">
+                <div class="propertySale">
+                    <div class="propertySaleNumber">250+</div>
+                    <div class="propertySaleText">Property Sale</div>
+                </div>
+                <div class="apartmentRent">
+                    <div class="apartmentRentNumber">550+</div>
+                    <div class="apartmentRentText">Apartment Rent</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="propertyWorthDetails">
+            <div class="aboutUsButton">ABOUT US</div>
+            <div class="propertyWorthHeading">How much is your property worth now?</div>
+            <div class="propertyWorthPara">We have built our reputation as true local area experts. We have gained more knowledge about buyer interests, our neighborhood and the market than any other brand because we live locally and work for local people. </div>
+            <div class="learnMoreButton">Learn More</div>
+        </div>
+    </div>
+    <!-- This part is about propertyworth (end) -->
+    <!-- This part is about customerReviews (start) -->
+    <div class="customerReviews">
+        <div class="customerReviewsHeader">
+            <div class="customerReviewTag">CUSTOMER TESTIMONIAL</div>
+            <div class="customerReviewsLowerHeader">
+                <div class="customerReviewsMainHeading">People say about us?</div>
+                <div class="learnMore">
+                    <div class="learnText">Learn More</div>
+                    <div class="learnLogo"><img src="images/learnlogo.png" alt="" width="80%"></div>
+                </div>
+            </div>
+        </div>
+        <div class="customerReviewsCards">
+            <div class="customerCard">
+                <div class="apostrophe"><img src="images/apostrophe.png" alt=""></div>
+                <div class="customerCardHeading "><b>It proved to be exactly the <br> kind of home we wanted.</b></div>
+                <div class="customerCardPara">We wish to express our thanks for your hard work in finding us a temporary
+                    home, which proved to be exactly what we wanted and we wanted.</div>
+                <div class="customerCardLower">
+                    <div class="customerPhoto"><img src="images/customerone.png" alt="" width="100%"></div>
+                    <div class="customerDetails">
+                        <div class="customerName">Jaydon Aminoff</div>
+                        <div class="customerDesignation">UX Designer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="customerCard">
+                <div class="apostrophe"><img src="images/Path 257.png" alt=""></div>
+                <div class="customerCardHeading">Nobody knows Portland and the peninsula better than David.</div>
+                <div class="customerCardPara">My wife and I had a dream of downsizing from our house in Cape Elizabeth
+                    into a small condo closer to where we work and play in Portland.
+                </div>
+                <div class="customerCardLower">
+                    <div class="customerPhoto"><img src="images/customertwo.png" alt=""></div>
+                    <div class="customerDetails">
+                        <div class="customerName">Alfredo Donin</div>
+                        <div class="customerDesignation">UI Designer</div>
+                    </div>
+                </div>
+            </div>
+            <div class="customerCard">
+                <div class="apostrophe"><img src="images/apostrophe.png" alt=""></div>
+                <div class="customerCardHeading">He keeps his client's best <br> interests in sharp focus</div>
+                <div class="customerCardPara" id="customerParaAlign">After working with David to sell my home in 2013, I
+                    was convinced that he's the only realtor I'll ever need. Since then, I've bought two properties and
+                    sold one</div>
+                <div class="customerCardLower">
+                    <div class="customerPhoto"><img src="images/customerthree.png" alt=""></div>
+                    <div class="customerDetails">
+                        <div class="customerName">Makenna Korsgaard</div>
+                        <div class="customerDesignation">UX Researcher</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- This part is about  customerReviews(end) -->
+    <!-- This part is about footer section start -->
+    <div class="footer">
+        <div class="footerLeft">
+            <div class="footerLeftLogo">
+                <div class="leftLogoIconFooter">
+                    <img src="images/path_41.png" class="mIcon" alt="icon m photo">
+                </div>
+                <div class="rightLogoIcon">
+                    Mulih
+                </div>
+            </div>
+
+            <div class="footerLeftPara">We have built our reputation as true local area experts.</div>
+            <div class="newsLetter">NewsLetter</div>
+
+
+            <div class="inputGroup">
+                <input type="text" name="search" placeholder="Input Your Email">
+                <input type="submit" value="Send">
+            </div>
+
+        </div>
+        <div class="footerRight">
+            <div class="service">
+                <div class="headingInfo">Service</div>
+                <div class="info">
+                    About us
+                </div>
+                <div class="info">
+                    Careers
+                </div>
+                <div class="info">
+                    Terms & Conditions
+                </div>
+                <div class="info">
+                    Privacy & Policy
+                </div>
+
+            </div>
+
+            <div class="community">
+
+                <div class="headingInfo">Community</div>
+                <div class="info">
+                    Find Agents
+                </div>
+                <div class="info">
+                    Lifestyle
+                </div>
+                <div class="info">
+                    Legal Notice
+                </div>
+
+            </div>
+
+            <div class="socials">
+                <div class="headingInfo">Follow us on </div>
+                <div class="socialBar">
+                    <div class="insta"><img src="images/insta.png" alt="" class="socialIcons"></div>
+                    <div class="yt"><img src="images/yt.png" alt="" class="socialIcons"></div>
+                    <div class="fb"><img src="images/fb.png" alt="" class="socialIcons"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- This part is about footer section (end_) -->
+
+</body>
+
+</html>
